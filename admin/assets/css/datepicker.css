@@ -1,0 +1,178 @@
+.form-group{
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: 126px;
+}
+.category_search{
+    width: 180px;
+}
+.type{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    width: auto;
+}
+.from-label1{
+   margin-right: 10px;
+   text-align: center;
+   font-size: 18px;
+   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+}
+.from-label2{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+ }
+ .from-label3{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+ }
+ .from-label4{
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 17px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+ }
+ #btn_search{
+    width: auto;
+    margin-left: 23px;
+    padding: 6.5px 11px;
+    text-decoration: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    outline: none;
+ }
+ #btn_search:focus, #btn_search:active{
+    outline: none;
+    background-color: #428bca;
+    border: #357ebd;
+}
+#btn_search:hover{
+    background-color: #326796;
+}
+ #btn_print{
+    width: auto;
+    margin-left: 20px;
+    padding: 6.5px 11px;
+    text-decoration: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    outline: none;
+}
+#btn_print:focus, #btn_print:active{
+    outline: none;
+    background-color: #428bca;
+    border: #357ebd;
+
+}
+#btn_print:hover{
+    background-color: #326796;
+}
+
+#search_dr{
+    position: relative;
+}
+
+.form-group .cityList,.form-group .cityList ul, .form-group .cityList ul li{
+    display: block;
+
+}
+#btn_invoice{
+    width: auto;
+    margin-left: 10px;
+}
+#btn_invoice:focus, #btn_search:active{
+    outline: none;
+    width: auto;
+    /* background-color: yellow; */
+}
+
+#new_category{
+    width: 25%;
+}
+
+
+#btn_new_category{
+    width: auto;
+    margin-left: 23px;
+    padding: 6.5px 11px;
+    text-decoration: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    outline: none;
+ }
+ #btn_new_category:focus, #btn_search:active{
+    outline: none;
+    background-color: #428bca;
+    border: #357ebd;
+}
+#btn_new_category:hover{
+    background-color: #326796;
+}
+
+#btn_all_category{
+    width: auto;
+    margin-left: 23px;
+    padding: 6.5px 11px;
+    text-decoration: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    outline: none;
+ }
+ #btn_all_category:focus, #btn_search:active{
+    outline: none;
+    background-color: #428bca;
+    border: #357ebd;
+}
+#btn_all_category:hover{
+    background-color: #326796;
+}
+
+#btn_admin_category{
+    width: auto;
+    /* margin-left: 23px; */
+    padding: 6.5px 11px;
+    text-decoration: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    outline: none;
+ }
+ #btn_admin_category:focus, #btn_search:active{
+    outline: none;
+    background-color: #428bca;
+    border: #357ebd;
+}
+#btn_admin_category:hover{
+    background-color: #326796;
+}
+
+#btn_users_category{
+    width: auto;
+    margin-left: 23px;
+    padding: 6.5px 11px;
+    text-decoration: none;
+    border: none;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    cursor: pointer;
+    outline: none;
+ }
+ #btn_users_category:focus, #btn_search:active{
+    outline: none;
+    background-color: #428bca;
+    border: #357ebd;
+}
+#btn_users_category:hover{
+    background-color: #326796;
+}

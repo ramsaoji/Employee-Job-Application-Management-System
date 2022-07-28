@@ -1,0 +1,104 @@
+/* Ensure that the demo table scrolls */
+th, td { white-space: nowrap; }
+div.dataTables_wrapper {
+    margin: 0 auto;
+}
+
+div.container {
+    width: 80%;
+}
+
+table.dataTable {
+  cursor: default;
+}
+table.dataTable tbody td.emp_name{
+  background: #EDDDFB;
+}
+table.dataTable tbody td.emp_name a:hover {
+  
+  cursor: pointer;
+  color: #8a51bb;
+}
+div.dt-buttons{
+  padding-left: 15px;
+  float: right;
+  margin-bottom: 10px;
+}
+table.dataTable thead th,table.dataTable thead td{
+  font-weight: 600;
+  border-top: 1px solid #ddd !important;
+  padding: 8px;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+  background: #EDDDFB;
+  /* border-bottom: 0px solid #111 !important; */
+}
+table.dataTable tbody th,table.dataTable tbody td{
+  /* border-top: none !important; */
+  padding: 8px !important;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.24);
+}
+table.dataTable tbody td.expertise_hover:hover{
+  background: #EDDDFB;
+  cursor: pointer;
+  color: #8a51bb;
+}
+.buttons-pdf {
+  background-color: #DC2F2F !important;
+  border: 1px solid #c42b2b !important;
+  /* border-color: #c42b2b !important; */
+  color: #ffffff !important;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+
+.buttons-excel {
+  background-color: #00a732 !important;
+  border: 1px solid #009120 !important;
+  /* border-color: #007a1b !important; */
+  color: #ffffff !important;
+  padding: 4px 10px;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
+.buttons-pdf:hover{
+  background-color: #e61b00 !important;
+  border-color: #e61b00!important;
+}
+.buttons-excel:hover{
+  background-color: #00a70e !important;
+  border-color: #00a70e !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+  background: none !important;
+  background-color: #357ebd !important;
+  border: none;
+  cursor: pointer;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.disabled:hover{
+  color: #ffffff;
+  background: none !important;
+  background-color: none !important;
+}
+
+tbody #bottom{
+  border-top: 1px solid black !important;
+}
+
+.dataTables_wrapper .dataTables_filter input{
+  padding: 4px;
+  margin-right: 3px;
+  
+}
+.dataTables_scroll{
+  border-right: 1px solid #ddd;
+}
+.dataTables_wrapper .dataTables_filter{
+  float: left;
+}
+
+#dataTables-example_filter label{
+  margin-bottom: 10px;
+}

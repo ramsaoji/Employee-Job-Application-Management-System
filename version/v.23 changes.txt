@@ -1,0 +1,38 @@
+v.23 future and past dates not accepting issue fixed.
+
+v.22 Password to md5 and restrictions added. DB changed.
+
+v.21 Added scrollbar for category search list.
+
+v.20 Final Category Manage Page and Users Manage Page improvements.
+
+v.19 Manage Login Users Added.
+
+v.18 Update Category added with all validations.
+
+v.17 Improved manage_category page and validations and alerts.
+
+v.16 Added Category Manage Page and added insert and delete category functionality.
+
+v.15 dates unlocked from all pages.
+
+v.14 Proper upload file validations.
+
+v.13 If no emp in db then emp id starts from 1 previously it was starting from 0. 
+
+v.12 Admin and User specific login also DB Changed.
+
+v.11 Optimised code
+
+v.10 Added download functionality
+
+v.9 Upload File Added
+
+v.8 inserting data to db on new_emplotee page without page reloading
+    and preview page improvements
+    
+v.7 fixed date on reports page & ui change on new patient page
+
+v.6 More enhancement
+
+V.4 Reports page working 
